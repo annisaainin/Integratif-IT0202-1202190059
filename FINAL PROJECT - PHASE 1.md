@@ -1,6 +1,6 @@
-## FINAL PROJECT - PHASE 1
+## FINAL PROJECT REPORT
 
-#### Install Laravel
+#### PHASE 1 - INSTALL LARAVEL
 
 **Before we start, make sure you had installed xampp and composer first.**
 
@@ -52,3 +52,8 @@ php artisan serve
 ![6_2](asset/6_2.png)
 
 ![7](asset/7.png)
+
+
+
+7. The installation is complete!
+
