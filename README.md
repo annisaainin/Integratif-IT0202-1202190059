@@ -26,7 +26,7 @@ cd \xampp\htdocs
 
 
 
-4. Do laravel installation with this command and wait until the progress is finished.
+4. Do laravel installation with this command and wait until the instalation is complete.
 
 ```markdown
 composer create-project --prefer-dist laravel/laravel integratif
