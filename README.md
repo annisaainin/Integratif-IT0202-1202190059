@@ -102,11 +102,11 @@ php artisan serve
 
 7. Run migration:fresh, db:seed, and artisan serve
 
-```markdown
-php artisan migrate:fresh
-php artisan db:seed
-php artisan serve
-```
+   ```markdown
+   php artisan migrate:fresh
+   php artisan db:seed
+   php artisan serve
+   ```
 
 
 
