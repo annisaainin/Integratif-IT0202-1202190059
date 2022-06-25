@@ -52,3 +52,70 @@ php artisan serve
 ![6_2](asset/6_2.png)
 
 ![7](asset/7.png)
+
+
+#### PHASE 2 - DATABASE AND RSS
+
+1. Change DB_DATABASE in file .env. according to phpmyadmin.
+
+   ![](asset/2_1.PNG)
+
+
+
+2. Create file for rss table and news table.
+
+   ```markdown
+   php artisan make:migration create_rss_table
+   php artisan make:migration create_news_table
+   
+   ```
+
+   
+
+3. Create seeder and controller.
+
+   ```markdown
+   php artisan make:model Rss -seed --controller
+   ```
+
+
+
+4. Create news controller.
+
+   ```markdown
+   php artisan make:model News --controller
+   ```
+
+
+
+5. Edit file NewsController.php
+
+   ![](asset/2_2.PNG)
+
+
+
+6. Add Route in routes/web.php
+
+   ![](asset/2_3.PNG)
+
+   
+
+7. Run migration:fresh, db:seed, and artisan serve
+
+```markdown
+php artisan migrate:fresh
+php artisan db:seed
+php artisan serve
+```
+
+
+
+8. Check on database phpmyadmin
+
+   ![](asset/2_4.PNG)
+
+
+
+9. Check on your browser
+
+   ![](asset/2_5.PNG)
