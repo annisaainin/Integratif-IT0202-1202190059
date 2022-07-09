@@ -1,6 +1,5 @@
-## FINAL PROJECT - PHASE 1
+## FINAL PROJECT - PHASE 1 - INSTALL LARAVEL
 
-#### Install Laravel
 
 **Before we start, make sure you had installed xampp and composer first.**
 
@@ -54,7 +53,7 @@ php artisan serve
 ![7](asset/7.png)
 
 
-#### PHASE 2 - DATABASE AND RSS
+## FINAL PROJECT - PHASE 2 - DATABASE AND RSS
 
 1. Change DB_DATABASE in file .env. according to phpmyadmin.
 
@@ -120,7 +119,7 @@ php artisan serve
 
    ![](asset/2_5.PNG)
    
-   #### PHASE 3 - HOMEPAGE
+## FINAL PROJECT - PHASE 3 - HOMEPAGE
 
 In this page, news from the following RSS link is displayed:
 
