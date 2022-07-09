@@ -129,4 +129,4 @@ Asia: https://news.un.org/feed/subscribe/en/news/region/asia-pacific/feed/rss.xm
 
 Europe: https://news.un.org/feed/subscribe/en/news/region/europe/feed/rss.xml
 
-![](asset/3_1.PNG)
+![](asset/3_2.PNG)
