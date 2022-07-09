@@ -119,3 +119,15 @@ php artisan serve
 9. Check on your browser
 
    ![](asset/2_5.PNG)
+   
+   #### PHASE 3 - HOMEPAGE
+
+In this page, news from the following RSS link is displayed:
+
+Health: https://news.un.org/feed/subscribe/en/news/topic/health/feed/rss.xml
+
+Asia: https://news.un.org/feed/subscribe/en/news/region/asia-pacific/feed/rss.xml
+
+Europe: https://news.un.org/feed/subscribe/en/news/region/europe/feed/rss.xml
+
+![](asset/3_1.PNG)
